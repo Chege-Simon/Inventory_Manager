@@ -52,6 +52,12 @@
                         <span class="lead ml-3">Products</span>
                     </a>
                 </li>
+                <li class="c-sidebar-nav-item mt-3">
+                    <a class="c-sidebar-nav-link" href="/sales" :active="request()->routeIs('sales')">
+                        <i class="fa fa-money" style="font-size: 2em" aria-hidden="true"></i>
+                        <span class="lead ml-3">Sales</span>
+                    </a>
+                </li>
             </ul>
             <span class="c-sidebar-nav-item mb-5">
                 <a class="c-sidebar-nav-link" href="">

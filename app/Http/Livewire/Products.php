@@ -83,7 +83,7 @@ class Products extends Component
         ]);
     }
 
-        private function headerConfig(){
+    private function headerConfig(){
         return [
             'product_name' => 'Product Name',
             'product_quantity' => 'Product Quantity',

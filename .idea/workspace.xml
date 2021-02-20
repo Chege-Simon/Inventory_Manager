@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cdbdabc-4b9a-4afc-8e0f-8efc0e254e5e" name="Default Changelist" comment="" />
+    <list default="true" id="8cdbdabc-4b9a-4afc-8e0f-8efc0e254e5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +15,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -136,6 +144,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1oLBsB4BIyF6HP8JSNVt6ASaLQB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -169,7 +178,8 @@
       <workItem from="1613056214182" duration="4188000" />
       <workItem from="1613195042464" duration="17833000" />
       <workItem from="1613375782610" duration="5347000" />
-      <workItem from="1613484779301" duration="21251000" />
+      <workItem from="1613484779301" duration="21856000" />
+      <workItem from="1613850522407" duration="5600000" />
     </task>
     <servers />
   </component>
@@ -181,13 +191,13 @@
       <screen x="45" y="27" width="1555" height="873" />
     </state>
     <state x="524" y="324" width="577" height="279" key="#Updates/45.27.1555.873@45.27.1555.873" timestamp="1613195068063" />
-    <state x="555" y="221" width="524" height="485" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613493852097">
+    <state x="555" y="221" width="524" height="485" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613841858187">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state x="555" y="221" width="524" height="485" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/45.27.1555.873@45.27.1555.873" timestamp="1613493852097" />
-    <state x="512" y="252" width="672" height="678" key="search.everywhere.popup" timestamp="1613485899125">
+    <state x="555" y="221" width="524" height="485" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/45.27.1555.873@45.27.1555.873" timestamp="1613841858187" />
+    <state x="512" y="252" width="672" height="678" key="search.everywhere.popup" timestamp="1613842705069">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state x="512" y="252" width="672" height="678" key="search.everywhere.popup/45.27.1555.873@45.27.1555.873" timestamp="1613485899125" />
+    <state x="512" y="252" width="672" height="678" key="search.everywhere.popup/45.27.1555.873@45.27.1555.873" timestamp="1613842705069" />
   </component>
 </project>
