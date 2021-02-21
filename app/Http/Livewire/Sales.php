@@ -2,24 +2,37 @@
 
 namespace App\Http\Livewire;
 
+use App\Exports\SalesExport;
 use App\Models\Sale;
 use Livewire\Component;
+use App\Models\product;
+use Maatwebsite\Excel\Facades\Excel;
 
 class Sales extends Component
 {
     private $headers;
     public $sortColumn = 'created_at';
-    public $sortDirection = 'asc';
+    public $sortDirection = 'desc';
     public $searchTerm = '';
     public $open;
 
+    public function export(){
+        return Excel::download(new SalesExport(), 'All_Sales.xlsx');
+    }
+
     private function headerConfig(){
         return [
-            'product_id' => 'Product Name',
-            'count' => 'Product Quantity',
-            'price' => 'Product Count',
+            'product_id' => [
+                'label'=>'Product',
+                'func' => function($value){
+                        $product = product::find($value);
+                        return  $product->product_name." -- ".$product->product_quantity;
+                }
+            ],
+            'count' => 'Count',
+            'price' => 'Price for Each',
             'customer' => 'Customer',
-            'updated_at' => 'Updated On',
+            'updated_at' => 'Purchased On',
         ];
     }
     public function mount(){
@@ -35,11 +48,22 @@ class Sales extends Component
         $this->sortDirection = $this->sortDirection == 'asc' ? 'desc':'asc';
     }
 
+    public function searchProduct(){
+        $product = product::where('product_name','like','%'.$this->searchTerm.'%')->first();
+        $id = '';
+        if($product != null){
+            $id = $product->id;
+        }else{
+            $id = '';
+        }
+        return $id;
+    }
+
     private function resultData(){
         return Sale::where(function ($query){
             $query->where('product_id', '!=', '');
             if($this->searchTerm != ""){
-                $query->where('product_id','like','%'.$this->searchTerm.'%');
+                $query->where('product_id','like','%'.$this->searchProduct().'%');
                 $query->where('count','like','%'.$this->searchTerm.'%');
                 $query->orWhere('price','like','%'.$this->searchTerm.'%');
                 $query->orWhere('customer','like','%'.$this->searchTerm.'%');
@@ -58,6 +82,6 @@ class Sales extends Component
             'sales' => $this->resultData(),
             'headers' => $this->headers
         ])
-            ->layout('layouts.app', ['headers' => 'Sales']);
+            ->layout('layouts.app', ['header' => 'Sales']);
     }
 }

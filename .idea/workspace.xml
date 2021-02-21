@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cdbdabc-4b9a-4afc-8e0f-8efc0e254e5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Inventory_manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Inventory_manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Materials.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Materials.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Sales.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Sales.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/materials.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/materials.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/sales.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/sales.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +150,16 @@
       <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
       <path value="$PROJECT_DIR$/vendor/jenssegers/agent" />
       <path value="$PROJECT_DIR$/vendor/inertiajs/inertia-laravel" />
+      <path value="$PROJECT_DIR$/vendor/usmanhalalit/laracsv" />
+      <path value="$PROJECT_DIR$/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
     </include_path>
   </component>
   <component name="ProjectId" id="1oLBsB4BIyF6HP8JSNVt6ASaLQB" />
@@ -180,6 +199,7 @@
       <workItem from="1613375782610" duration="5347000" />
       <workItem from="1613484779301" duration="21856000" />
       <workItem from="1613850522407" duration="5600000" />
+      <workItem from="1613886625707" duration="16662000" />
     </task>
     <servers />
   </component>
@@ -191,13 +211,13 @@
       <screen x="45" y="27" width="1555" height="873" />
     </state>
     <state x="524" y="324" width="577" height="279" key="#Updates/45.27.1555.873@45.27.1555.873" timestamp="1613195068063" />
-    <state x="555" y="221" width="524" height="485" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613841858187">
+    <state x="555" y="221" width="524" height="485" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613908207830">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state x="555" y="221" width="524" height="485" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/45.27.1555.873@45.27.1555.873" timestamp="1613841858187" />
-    <state x="512" y="252" width="672" height="678" key="search.everywhere.popup" timestamp="1613842705069">
+    <state x="555" y="221" width="524" height="485" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/45.27.1555.873@45.27.1555.873" timestamp="1613908207830" />
+    <state x="512" y="252" width="672" height="678" key="search.everywhere.popup" timestamp="1613906410295">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state x="512" y="252" width="672" height="678" key="search.everywhere.popup/45.27.1555.873@45.27.1555.873" timestamp="1613842705069" />
+    <state x="512" y="252" width="672" height="678" key="search.everywhere.popup/45.27.1555.873@45.27.1555.873" timestamp="1613906410295" />
   </component>
 </project>

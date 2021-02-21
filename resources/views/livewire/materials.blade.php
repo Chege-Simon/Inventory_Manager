@@ -12,10 +12,13 @@
         </div>
         <div class="card">
             <div class="card-header row">
-                <h3 class="card-title col-md-6">All Registered Materials</h3>
+                <h3 class="card-title col-md-5">All Registered Materials</h3>
                 <input wire:model="searchTerm" type="text" class="form-control rounded col-md-2 ml-5" placeholder="Search...">
 {{--                <a class="btn btn-secondary col-md-1 form-control ml-1">Import</a>--}}
-                <a class="btn btn-secondary col-md-1 form-control ml-1">Export</a>
+                <a wire:click="export" class="btn btn-secondary col-md-1 form-control ml-1">Export</a>
+                <div wire:loading class="spinner-border-sm text-dark text-success ml-auto" role="status">
+                    <span class="sr-only">Just a moment...</span>
+                </div>
 {{--                <a class="btn btn-success col-md-2 form-control ml-1" >Add to Store</a>--}}
                 <a href="/addnewmaterial" class="btn btn-success col-md-2 form-control ml-1">Add New Material</a>
             </div>

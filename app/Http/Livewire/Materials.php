@@ -2,9 +2,11 @@
 
 namespace App\Http\Livewire;
 
+use App\Exports\MaterialsExport;
 use Livewire\Component;
 use App\Models\material;
 use Livewire\WithPagination;
+use Maatwebsite\Excel\Facades\Excel;
 
 class Materials extends Component
 {
@@ -29,6 +31,11 @@ class Materials extends Component
     ];
 
     protected $listeners = ['deleteMaterial'];
+
+
+    public function export(){
+        return Excel::download(new MaterialsExport(), 'All_Materials.xlsx');
+    }
 
     public function openModal($id){
         $this->material_id = $id;

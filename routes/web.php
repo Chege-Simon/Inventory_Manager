@@ -32,3 +32,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/addnewmaterial', \App\Htt
 Route::middleware(['auth:sanctum', 'verified'])->get('/settings', \App\Http\Livewire\Settings::class);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/sales', \App\Http\Livewire\Sales::class);
+
+

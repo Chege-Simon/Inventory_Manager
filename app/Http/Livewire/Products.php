@@ -5,6 +5,8 @@ namespace App\Http\Livewire;
 use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\product;
+use App\Exports\ProductsExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class Products extends Component
 {
@@ -29,6 +31,10 @@ class Products extends Component
     ];
 
     protected $listeners = ['deleteProduct'];
+
+    public function export(){
+        return Excel::download(new ProductsExport, 'All_Products.xlsx');
+    }
 
     public function openModal($id){
         $this->product_id = $id;
