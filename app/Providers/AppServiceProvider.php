@@ -3,8 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use NascentAfrica\Jetstrap\JetstrapFacade;
 use Illuminate\Pagination\Paginator;
+use NascentAfrica\Jetstrap\JetstrapFacade;
+use NascentAfrica\Jetstrap\src\Jetstrap\Console\JetstrapFacade;
 
 class AppServiceProvider extends ServiceProvider
 {
