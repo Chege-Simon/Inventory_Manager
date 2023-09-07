@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <meta http-equiv="Content-Security-Policy" content="default-src * https://xxxxx.com;
-            script-src * 'unsafe-eval' 'unsafe-inline';
-            style-src 'self' 'unsafe-inline';
-            img-src 'self' https://xxxxx.com data:">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
     <title>Laravel</title>
 
     <!-- Fonts -->
