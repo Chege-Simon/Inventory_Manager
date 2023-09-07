@@ -1,6 +1,6 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/js/dashboard.js": "/js/dashboard.js",
-    "/css/app.css": "/css/app.css",
-    "/css/dashboard.css": "/css/dashboard.css"
+    "/js/app.js": "/js/app.js?id=19be6155849053bf22d19c59eaac68a4",
+    "/js/dashboard.js": "/js/dashboard.js?id=16a24192e85e6c4e61b4fd062ddb404d",
+    "/css/app.css": "/css/app.css?id=570dea7c6e3d4cfdf6f4dfd26631ddc1",
+    "/css/dashboard.css": "/css/dashboard.css?id=0f83940501d9ce7de4cf9a1f782a3575"
 }
