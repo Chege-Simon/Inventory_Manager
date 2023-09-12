@@ -2,6 +2,8 @@
 echo 'Running composer'
 composer global require hirak/prestissimo
 composer dump-autoload
+composer update
+composer clear-cache
 # composer install --no-dev --working-dir=/var/www/html
 # composer install --no-dev
 composer install --no-scripts
