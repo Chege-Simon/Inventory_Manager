@@ -8,6 +8,7 @@ composer self-update
 composer clear-cache
 
 echo 'composer update'
+rm composer.lock
 composer update
 
 echo 'composer install'
