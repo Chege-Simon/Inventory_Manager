@@ -7,8 +7,8 @@ composer dump-autoload
 composer self-update
 composer clear-cache
 
-echo 'composer update'
-rm composer.lock
+echo 'rm vendor & composer update'
+rm -rf vendor
 composer update
 
 echo 'composer install'
