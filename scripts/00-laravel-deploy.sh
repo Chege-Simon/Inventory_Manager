@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 echo 'Running composer'
+rm -rf vendor
 composer global require hirak/prestissimo
 
 echo 'composer dump-autoload'
@@ -8,7 +9,6 @@ composer self-update
 composer clear-cache
 
 echo 'rm vendor & composer update'
-rm -rf vendor
 composer update
 
 echo 'composer install'
