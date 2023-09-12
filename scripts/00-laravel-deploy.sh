@@ -2,11 +2,11 @@
 echo 'Running composer'
 composer global require hirak/prestissimo
 composer dump-autoload
-composer update
+composer self-update
 composer clear-cache
-# composer install --no-dev --working-dir=/var/www/html
+composer install --no-dev --working-dir=/var/www/html
 # composer install --no-dev
-composer install --no-scripts
+# composer install --no-scripts
 
 echo 'Caching config...'
 php artisan config:cache
